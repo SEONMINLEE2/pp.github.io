@@ -876,21 +876,20 @@ h3 {
 .p-top__page .p-top__ttl {
   margin-top: 25px;
   font-size: 5.125em;
-  letter-spacing: 0.3em;
-  font-family: 'Lobster', cursive;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .p-top__page .p-top__subttl {
   margin-top: 15px;
   font-size: 2.25em;
-  font-family: 'Beau Rivage', cursive;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.3em;
 }
 
 .p-top__page .p-top__txt {
   margin-top: 30px;
   line-height: 1.1;
-  font-family: "Noto Sans JP", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   font-size: 3.125em;
 }
 
