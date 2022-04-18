@@ -1886,6 +1886,18 @@ h3 {
 }
 
 @media (max-width: 768px) {
+  .c-subtitle{
+    font-size: 15px;
+  }
+  .p-worksdetails__list{
+    font-size: 13px;
+  }
+  .p-worksdetails__img{
+    width: 90%;
+  }
+  .p-worksdetails__img img{
+    width: 100%;
+  }
   .c-slick {
     width: 70%;
     height: auto;
