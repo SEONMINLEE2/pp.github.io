@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SEONMIN LEE PORTFOLIO</title>
+  <meta name="keywords" content="ポートフォリオ,portfolio,SEONMIN LEE" />
+  <meta name="Description" content="サイト設計からデザイン、コーディングまで対応しています。お客様がお持ちの大切な考えやアイディアを閲覧者にわかりやすく伝えられるwebサイトを作成しています。" />
+  <link rel="stylesheet" href="assets/css/style.css" media="all" />
+  <!--IEの互換表示を防止する-->
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <!--レスポンシブ-->
+  <meta name="viewport" content="width=device-width,initial-acale=1, minimum-scale=1, maximum-scale=1" />
+  <!--font-->
+  <link rel='stylesheet' id='noto-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans+JP%3A400%2C900&#038;ver=5.5.9' type='text/css' media='all' />
+  <link rel='stylesheet' id='Roboto-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C700&#038;display=swap&#038;ver=5.5.9' type='text/css' media='all' />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Lobster&display=swap" rel="stylesheet">
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="assets/js/common.js"></script>
+  <!--slick-->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!--フェードイン-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <header>
+    <div class="l-header">
+      <div class="l-header__top">
+        <h1 class="l-header__logo"><a href="#">SEONMIN LEE</a></h1>
+        <div class="l-hamburger__toggle">
+          <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="l-hamburger">
+        <nav>
+          <div class="l-hamburger__title">MENU</div>
+          <ul>
+            <li class="l-hamburger__link">
+              <a href="index.html">
+                <span class="l-hamburger__en">HOME</span>
+                <span class="l-hamburger__ja">ホーム</span>
+              </a>
+            </li>
+            <li class="l-hamburger__link">
+              <a href="#about">
+                <span class="l-hamburger__en">ABOUT</span>
+                <span class="l-hamburger__ja">わたしについて</span>
+              </a>
+            </li>
+            <li class="l-hamburger__link">
+              <a href="#skill">
+                <span class="l-hamburger__en">SKILL</span>
+                <span class="l-hamburger__ja">スキル</span>
+              </a>
+            </li>
+            <li class="l-hamburger__link">
+              <a href="#service">
+                <span class="l-hamburger__en">SERVICE</span>
+                <span class="l-hamburger__ja">サービス内容</span>
+              </a>
+            </li>
+            <li class="l-hamburger__link">
+              <a href="#works">
+                <span class="l-hamburger__en">WORKS</span>
+                <span class="l-hamburger__ja">実績</span>
+              </a>
+            </li>
+            <li class="l-hamburger__link">
+              <a href="#contact">
+                <span class="l-hamburger__en">CONTACT</span>
+                <span class="l-hamburger__ja">お問い合わせ</span>
+              </a>
+            </li>
+          </ul>
+          <div>
+            <p class="l-hamburger__txt">&copy; 2022 SEONMIN LEE</p>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="l-main">
+      <section class="p-top">
+        <div class="p-top__center">
+          <div class="p-top__page">
+            <div class="p-top__ttl">Lee Seonmin</div>
+            <div class="p-top__subttl">Front-end Engineer</div>
+            <div class="p-top__txt">PORTPOLIO</div>
+          </div>
+        </div>
+        <div class="p-top__img">
+          <video id="video" poster="assets/mainmovie.jpg" webkit-playsinline playsinline muted autoplay loop>
+            <source src="assets/mainmovie.mp4" type="video/mp4">
+            <source src="assets/mainmovie.ogv" type="video/ogv">
+            <source src="assets/mainmovie.webm" type="video/webm">
+            <p>動画を再生できる環境ではありません。</p>
+          </video>
+        </div>
+      </section>
+      <section class="p-about" id="about">
+        <h2 class="c-title__en" id="about">PROFILE</h2>
+        <div class="c-title__ja fade__bottom">わたしについて</div>
+        <div class="p-about__content">
+          <div class="p-about__name__ja fade1">イ ソンミン</div>
+          <div class="p-about__name__en fade1">LEE SEONMIN</div>
+          <div class="p-about__box">
+            <div class="p-about__img">
+              <img src="assets/images/about.jpg" alt="about" />
+            </div>
+            <div class="p-about__txtwrap">
+              <p class="p-about__txt">
+                2018年に6ヶ月ほどWebのスクールででWeb制作を学びました。具体的には、HTML5やCSS3、jQuery、Photoshop、Illustratorなどを学びました。 スクールの卒業後、社内のWebサイト制作や更新に携わりました。今後はphpやjavascriptをもっと使えるようになって出来ることの幅を広げていきたいと考えております。
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section class="p-skill" id="skill">
+        <h2 class="c-title__en">SKILL</h2>
+        <div class="c-title__ja fade__bottom">スキル</div>
+        <div class="p-skill__common">
+          <ul>
+            <li class="aboutSkill_flex">
+              <img src="assets/images/about_photoshop.png" width="54" height="62" alt="Photoshopのアイコン">
+              <p class="aboutSkill_name">Photoshop</p>
+              <p class="aboutSkill_percent percent_80">80%</p>
+            </li>
+            <li class="aboutSkill_flex">
+              <img src="assets/images/about_illustrator.png" width="54" height="62" alt="Illustratorのアイコン">
+              <p class="aboutSkill_name">Illustrator</p>
+              <p class="aboutSkill_percent percent_60">60%</p>
+            </li>
+            <li class="aboutSkill_flex">
+              <img src="assets/images/about_html.png" width="54" height="62" alt="HTMLのアイコン">
+              <p class="aboutSkill_name">HTML</p>
+              <p class="aboutSkill_percent percent_80">80%</p>
+            </li>
+            <li class="aboutSkill_flex">
+              <img src="assets/images/about_css.png" width="54" height="62" alt="CSSのアイコン">
+              <p class="aboutSkill_name">CSS</p>
+              <p class="aboutSkill_percent percent_80">80%</p>
+            </li>
+            <li class="aboutSkill_flex">
+              <img src="assets/images/about_js.png" width="54" height="62" alt="JavaScriptのアイコン">
+              <p class="aboutSkill_name">JavaScript</p>
+              <p class="aboutSkill_percent percent_15">15%</p>
+            </li>
+            <li class="aboutSkill_flex">
+              <img src="assets/images/about_jquery.png" width="54" height="62" alt="jQueryのアイコン">
+              <p class="aboutSkill_name">jQuery</p>
+              <p class="aboutSkill_percent percent_50">50%</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-service" id="service">
+        <h2 class="c-title__en">SERVICE</h2>
+        <div class="c-title__ja fade__bottom">サービス内容</div>
+        <ul>
+          <li class="fade1">
+            <div class="p-service__img">
+              <img src="assets/images/direction.svg" width="250" height="250" alt="direction" />
+            </div>
+            <div class="p-service__en">DIRECTION</div>
+            <div class="p-service__ja">ディレクション</div>
+            <p class="p-service__txt">
+              お客様の要望をヒアリングし、閲覧者が使いやすいサイトを設計します。何が必要で何が必要でないのかを判断し、PCとモバイルそれぞれの特徴を併せて調査・検討します。
+            </p>
+          </li>
+          <li class="fade2">
+            <div class="p-service__img">
+              <img src="assets/images/design.svg" width="250" height="250" alt="design" />
+            </div>
+            <div class="p-service__en">DESIGN</div>
+            <div class="p-service__ja">デザイン</div>
+            <p class="p-service__txt">
+              ヒアリングに基づいた最適なプランの提案をさせていただき、デザインを作成いたします。使う人が迷わない、目的を達成できるデザインを制作します。
+            </p>
+          </li>
+          <li class="fade3">
+            <div class="p-service__img">
+              <img src="assets/images/coding.svg" width="250" height="250" alt="coding" />
+            </div>
+            <div class="p-service__en">CODING</div>
+            <div class="p-service__ja">コーディング</div>
+            <p class="p-service__txt">
+              スマートフォンサイト、ワードプレスを使用した更新性の高いサイト、Javascriptを使用した動きのあるサイトなど、様々なサイトのコーディングを行います。
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="p-works" id="works">
+        <h2 class="c-title__en">WORKS</h2>
+        <div class="c-title__ja fade__bottom">実績</div>
+        <div class="c-slick fade">
+          <ul class="c-slick__slider">
+            <li class="c-slick__slick__img">
+              <a href="works/work1.html">
+                <img src="assets/images/work1.png" width="341.4" height="192" alt="" />
+              </a>
+            </li>
+            <li class="c-slick__slick__img">
+              <a href="works/work2.html">
+                <img src="assets/images/work2.png" width="341.4" height="192" alt="" />
+              </a>
+            </li>
+            <li class="c-slick__slick__img">
+              <a href="works/work3.html">
+                <img src="assets/images/work3.png" width="341.4" height="192" alt="" />
+              </a>
+            </li>
+            <li class="c-slick__slick__img">
+              <a href="works/work4.html">
+                <img src="assets/images/work4.png" width="341.4" height="192" alt="" />
+              </a>
+            </li>
+            <li class="c-slick__slick__img">
+              <a href="works/work5.html">
+                <img src="assets/images/work5.png" width="341.4" height="192" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="c-button">
+          <a href="works/index.html" class="c-button__arrow">
+            WORKS LIST<img src="assets/images/arrow.svg" height="15" width="7.5" alt="">
+          </a>
+        </p>
+      </section>
+      
+      <section class="p-contact" id="contact">
+        <h2 class="c-title__en">CONTACT</h2>
+        <div class="c-title__ja fade__bottom">お問い合わせ</div>
+        <p class="p-contact__text">
+          お気軽に
+          <a href="mailto:@gmail.com" target="_blank" rel="noopener noreferrer">こちらのメールアドレス</a>
+          までご連絡ください。
+        </p>
+        <ul>
+          <li>
+            <span>一週間以内にご返答いたします。</span>
+          </li>
+          <li>
+            <span>もし返信がない場合は「迷惑メール」フォルダもご確認ください。</span>
+          </li>
+          <li>
+            <span>営業目的のメール、圧縮ファイルが添付されているメール、またお名前や会社名のないメールには返信しておりません。</span>
+          </li>
+        </ul>
+      </section>
+      <nav>
+        <div class="l-breadcrumb__indexhome">
+          <ul>
+            <li><a href="#">HOME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </main>
+  <footer>
+    <div class="l-footer">
+      <p class="l-footer__txt">&copy; 2022 SEONMIN LEE</p>
+    </div>
+  </footer>
+  <div class="c-pagetop"><a href="#">Page Top</a></div>
+
+  <script>
+    /*slick*/
+    $(function () {
+      $(".c-slick__slider").slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        centerMode: true,
+        centerPadding: "0px",
+        slidesToShow: 3,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 768, //レスポンシブ
+            settings: {
+              slidesToShow: 1, //表示スライド数
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    });
+  </script>
+  <script>
+    /*フェードイン*/
+    ScrollReveal().reveal(".fade__bottom", {
+      delay: 200, // 開始時間
+      duration: 1600, // 完了にかかる時間
+      origin: "bottom", // 方向
+      distance: "50px", // 距離
+      reset: false, // フレームインの度に動かすか
+    });
+    ScrollReveal().reveal(".fade", {
+      delay: 200,
+      duration: 2000,
+      reset: false,
+    });
+    ScrollReveal().reveal(".fade1", {
+      delay: 300,
+      duration: 1600,
+      reset: false,
+    });
+    ScrollReveal().reveal(".fade2", {
+      delay: 600,
+      duration: 1600,
+      reset: false,
+    });
+    ScrollReveal().reveal(".fade3", {
+      delay: 900,
+      duration: 1600,
+      reset: false,
+    });
+  </script>
+</body>
+
+</html>
