@@ -1886,6 +1886,9 @@ h3 {
 }
 
 @media (max-width: 768px) {
+  .p-workslist__list {
+    width: 90%;
+  }
   .c-subtitle{
     font-size: 15px;
   }
